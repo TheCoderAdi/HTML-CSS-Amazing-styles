@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 40vh;
+    justify-content: center;
+}
+a{
+    border: 2px solid crimson;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+a:hover{
+    color: crimson;
+    background: none;
+}
+
