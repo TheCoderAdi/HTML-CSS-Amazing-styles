@@ -1,0 +1,34 @@
+body{
+    background-color: #000000;
+}
+.color{
+    height: 44vh;
+    width: 44vh;
+    position: absolute;
+    left: 37.7rem;
+    top: 17%;
+    border-radius: 50%;
+    animation: youtube cubic-bezier(0.84, 0.22, 0.24, 0.83) 1000ms infinite;
+}
+.ima{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+@keyframes youtube {
+    0%{
+        background-color:rgb(228, 253, 5);
+    }
+    25%{
+        background-color:rgb(195, 43, 43);
+    }
+    50%{
+        background-color: rgb(37, 174, 37);
+    }
+    75%{
+        background-color: rgb(41, 41, 146);
+    }
+    100%{
+        background-color: rgb(220, 222, 81);
+    }
+}
