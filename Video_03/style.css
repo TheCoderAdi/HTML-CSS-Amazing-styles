@@ -1,0 +1,30 @@
+section .title{
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font: 500 40px 'ubuntu' , sans-serif;
+}
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+.title::after{
+    content: "who i am";
+}
