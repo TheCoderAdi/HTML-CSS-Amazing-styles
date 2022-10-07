@@ -1,0 +1,21 @@
+body {
+    width: 300px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding: 2px 1px;
+    border: 2px solid black;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a[href^="http"] {
+    background: url('./external-link.png') no-repeat 100%;
+    background-size: 1rem 1rem;
+    padding-right: 19px;
+}
