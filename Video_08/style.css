@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    height: 1000vh;
+    color: white;
+    background: #010103;
+    text-align: center;
+}
+
+html::-webkit-scrollbar {
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #d3ad7f;
+    border-radius: 5rem;
+}
