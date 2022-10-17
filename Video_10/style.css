@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background: url("./background.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.image {
+    position: absolute;
+    bottom: -300px;
+    left: 40%;
+    animation: fly 5s .5s ease-in infinite;
+}
+
+
+@keyframes fly {
+    0% {
+        bottom: -300px;
+    }
+
+    100% {
+        bottom: 100%;
+    }
+}
