@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="calculator">
+      <input type="text" id="inputTag" placeholder="0">
+      <div class="row">
+        <button class="btn cp " onclick="clr()">AC</button>
+        <button class="btn " onclick="clrOne()">C</button>
+        <button class="btn cp1" onclick="calculate('%')">%</button>
+        <button class="btn color cp2" onclick="calculate('/')">/</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="calculate(7)">7</button>
+        <button class="btn" onclick="calculate(8)">8</button>
+        <button class="btn" onclick="calculate(9)">9</button>
+        <button class="btn color" onclick="calculate('*')">X</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="calculate(4)">4</button>
+        <button class="btn" onclick="calculate(5)">5</button>
+        <button class="btn" onclick="calculate(6)">6</button>
+        <button class="btn color" onclick="calculate('-')"> -</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="calculate(1)">1</button>
+        <button class="btn" onclick="calculate(2)">2</button>
+        <button class="btn" onclick="calculate(3)">3</button>
+        <button class="btn color" onclick="calculate('+')">+</button>
+      </div>
+      <div class="row">
+        <button class="btn full" onclick="calculate(0)">0</button>
+        <button class="btn full  color" onclick="result()"> = </button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
